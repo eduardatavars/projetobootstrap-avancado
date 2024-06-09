@@ -1,0 +1,9 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #004AAD;
+}
+

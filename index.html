@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Corretagem</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="indice">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="./img/icon-logo.png" alt="Logo Javascript Corretora">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#imoveis">Imóveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#indice" class="p-5">
+
+        <section id="inicio">
+            <div class="container">
+                <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./img/slide1.jpg" alt="slide1">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./img/slide2.jpeg" alt="slide2">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./img/slide3.jpg" alt="slide3">
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./img/icon-sobre.png" class="d-block mx-auto" alt="Logo JC">
+                    </div>
+                    <div class="col-6">
+                        <p>Bem-vindo à Javascript Corretora, sua parceira confiável no mercado imobiliário. Combinando tecnologia inovadora e vasta experiência no setor, oferecemos soluções personalizadas para compra, venda e aluguel de imóveis. 
+                           <br> Nossa missão é proporcionar um serviço transparente e eficiente, garantindo que você encontre o imóvel ideal com segurança e tranquilidade. Na Javascript Corretora, seu sonho de moradia é o nosso compromisso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
