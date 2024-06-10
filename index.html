@@ -38,10 +38,9 @@
             </div>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#indice" class="p-5">
+    <div data-bs-spy="scroll" data-bs-target="#indice" class="container p-5">
 
         <section id="inicio">
-            <div class="container">
                 <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div data-bs-interval="3000" class="carousel-item active">
@@ -60,26 +59,99 @@
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                     </div>
                 </div>
-            </div>
         </section>
         <section id="sobre" class="mt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <img src="./img/icon-sobre.png" class="d-block mx-auto" alt="Logo JC">
                     </div>
-                    <div class="col-6">
+                    <div class="col d-flex align-items-center">
                         <p>Bem-vindo à Javascript Corretora, sua parceira confiável no mercado imobiliário. Combinando tecnologia inovadora e vasta experiência no setor, oferecemos soluções personalizadas para compra, venda e aluguel de imóveis. 
-                           <br> Nossa missão é proporcionar um serviço transparente e eficiente, garantindo que você encontre o imóvel ideal com segurança e tranquilidade. Na Javascript Corretora, seu sonho de moradia é o nosso compromisso.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section id="imoveis" class="mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <article class="card text-bg-dark">
+                            <img src="./img/card1.jpg" alt="Foto apartamento moderno">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Apartamento Moderno</h4>
+                                <p>Conheça os melhores apartamentos em Sp.</p>
+                                <a href="#" class="btn">Saiba mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <article class="card text-bg-dark">
+                            <img src="./img/card2.jpg" alt="Foto de casa moderna">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Casa Luxuosa</h4>
+                                <p>Casas luxuosas para se morar em Alphaville.</p>
+                                <a href="#" class="btn">Saiba mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <article class="card text-bg-dark">
+                            <img src="./img/card3.jpg" alt="Foto de studio">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Studio Centro</h4>
+                                <p>Studio modernos que cabem no seu bolso em Sp.</p>
+                                <a href="#" class="btn">Saiba mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <article class="card text-bg-dark">
+                            <img src="./img/card4.jpg" alt="Foto de studio">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Co-working</h4>
+                                <p>Os melhores co-working para se trabalhar.</p>
+                                <a href="#" class="btn">Saiba mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="mt-5">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Entre em contato conosco</h2>
+                        <form class="mt-5">
+                            <label for="form-label" for="nome">Seu nome:</label>
+                            <input class="form-control" type="text" id="nome" />
+                            <label for="form-label" for="email">Seu e-mail:</label>
+                            <input class="form-control" type="email" id="email" />
+                            <label for="form-label" for="telefone">Seu telefone:</label>
+                            <input class="form-control" type="tel" id="telefone" />
+                            <label for="form-label" for="mensagem">Sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="form-check form-switch mt-2">
+                                <label for="aceito-termos" class="form-check-label">Li e concordo com os termos do site</label>
+                                <input type="checkbox" class="form-check-input" id="aceito-termos">
+                            </div>
+                            <button class="btn mt-3">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-
-    
+    <footer class="footer m-0 p-0">
+        <div class="container">
+            <p class="m-0 p-0">
+                2024 &copy; JS Corretora - Todos os direitos reservados - criado por Maria Tavares
+            </p>
+        </div>
+    </footer>
+   
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
 

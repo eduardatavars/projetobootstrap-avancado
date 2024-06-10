@@ -1,5 +1,13 @@
 body {
-    background-color: #fcfcfc;
+    background: #fdfbfb; background: -moz-linear-gradient(-121deg,  #fdfbfb 0%,#eaedee 100%); background: -webkit-linear-gradient(-121deg,  #fdfbfb 0%,#eaedee 100%); background: linear-gradient(-121deg,  #fdfbfb 0%,#eaedee 100%);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #080000;
 }
 
 .navbar-nav .nav-link.active {
@@ -7,3 +15,55 @@ body {
     background-color: #004AAD;
 }
 
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #FF914D;
+}
+
+section {
+    padding-top: 70px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    width: 20rem;
+    border: transparent;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #FF914D;
+}
+
+.btn:hover {
+    background-color: #004AAD;
+}
+
+.img-icon img {
+    width: 400px;
+}
+
+h2 {
+    color: #004AAD;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #080000;
+}
+
+footer p {
+    text-align: center;
+    color: #eaedee;
+}
